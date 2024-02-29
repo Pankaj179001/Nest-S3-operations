@@ -67,7 +67,7 @@ export class UploadService {
     ).then((data: any) => data.Location);
   }
 
-  //s3 upload function---------------
+  //s3 upload function to upload original file and 100*100 dimension image as well---------------
   async s3_upload(
     file: Buffer,
     bucket: string,
